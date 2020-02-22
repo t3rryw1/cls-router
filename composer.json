@@ -1,0 +1,34 @@
+{
+  "name": "t3rry/serializable-router",
+  "description": "Serialize HTTP Request into plain object with validation support",
+  "license": "MIT",
+  "require": {
+    "t3rry/lbase": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laura\\Lib\\Request\\": [
+        "src/",
+        "src/validator",
+        "src/transformer"
+      ]
+    },
+    "files": [
+      "./functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Laura\\Lib\\Request\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "authors": [
+    {
+      "name": "Terry Wang",
+      "email": "terry.wang@cozystay.com"
+    }
+  ]
+}
