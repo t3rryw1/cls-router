@@ -27,9 +27,9 @@ register("POST","/account/register", new AccountRegisterProcessor(), "1.2");
 
 // index.php
 
-Router::init('/ajax');
+Router::init('/ajax',[],Authenticator::class)
 include __DIR__ . "/routes.php";
-Router::getInstance()->run(_g('$ip_block_list', []));       
+Router::getInstance()->run();       
 
 ```
 

@@ -1,9 +1,9 @@
 {
-  "name": "t3rry/serializable-router",
+  "name": "t3rry/cls-router",
   "description": "Serialize HTTP Request into plain object with validation support",
   "license": "MIT",
   "require": {
-    "t3rry/lbase": "dev-master"
+    "t3rry/lbase": "1.0"
   },
   "autoload": {
     "psr-4": {
